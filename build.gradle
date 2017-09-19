@@ -15,10 +15,7 @@ configurations.all {
 }
 
 repositories {
-    mavenLocal()   
-    maven {
-            url "http://admin:password@${MavenRepoServerIP}:8081/artifactory/maven-virtual"
-          }
+    mavenCentral()   
 }
 dependencies {
     compile group: 'ognl', name: 'ognl', version:'3.1.7'

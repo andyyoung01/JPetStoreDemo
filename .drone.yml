@@ -1,0 +1,6 @@
+pipeline:
+  build:
+    image: dgroup/java8-gradle
+    commands:
+      - gradle build
+
